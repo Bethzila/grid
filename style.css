@@ -93,41 +93,8 @@ img:hover {
  }
 
 
-
-@media screen and (max-width: 1510px) {
-    body {
-        height: 900px;
+@media (min-width: 249px) and (max-width: 480px){
+    body{
+        width:30%;
     }
-}
-
-
-@media screen and (max-width: 1510px) {
-    body {
-        height: auto;
-        
-    }
-
-    main{
-        width: 90vw;
-        flex-direction: column;
-    }
-
-    aside {
-        width: 90vw;
-        height: 500px;
-        margin-top: 40px;
-    }
-}
-
-
-@media screen and (max-width: 477px) {
-    main {
-       align-items: center;
-       justify-content: center;
-    }
-    
-     aside {
-        align-items: center;
-        justify-content: center;
-     }
 }
